@@ -11,7 +11,7 @@ const path = require('path');
 function getConfigurationByFile(file) {
   const pathToConfigFile = path.resolve(
     '..',
-    'cypress-project/cypress/config-files',
+    'cypress-first-project/cypress/config-files',
     `${file}.json`
   );
 
