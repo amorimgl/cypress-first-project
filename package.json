@@ -8,8 +8,7 @@
   "scripts": {
     "test": "cypress run",
     "cy:open": "cypress open",
-    "cy:sit": "cypress open --env fileConfig=sit",
-    "cy:uat": "cypress open --env fileConfig=uat"
+    "cy:prod": "cypress open --env fileConfig=prod"
   },
   "devDependencies": {
     "cypress": "^7.5.0",
