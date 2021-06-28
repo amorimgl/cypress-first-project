@@ -13,4 +13,3 @@ npm run-script cy:prod
 npx cypress run --env fileConfig=prod --reporter mocha-junit-reporter
 
 npm run-script cy-prod
-"video": false,
