@@ -28,3 +28,17 @@ When('the user searches for a party giphy', () => {
     HomePage.searchForAnGiphy(type);
 });
 
+And('the short link is available', () => {
+
+    HomePage.copyShortLink();
+});
+
+Given('the user accesses the short link', () => {
+
+    HomePage.accessShortLink();
+});
+
+Then('the url displays the long link', () => {
+
+    HomePage.validateShortLinkUrl();
+});

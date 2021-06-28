@@ -10,3 +10,9 @@ Scenario: The user searches for a giphy
     When the user searches for a party giphy
     And clicks on the first giphy
     Then the giphy is displayed
+    And the short link is available
+
+Scenario: The short link redirects the user to the giphy page
+    Given the user accesses the short link
+    When the giphy is displayed
+    Then the url displays the long link
